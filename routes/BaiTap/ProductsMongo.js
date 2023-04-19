@@ -151,15 +151,15 @@ router.get(
       console.log(conditionFind);
       console.log(conditionFind.categoryId);
       let response = await Product.find(conditionFind)
-        // .limit(10)
+        .limit(10)
         // .skip(skip)
         .populate("category")
         .populate("supplier");
 
       if (!response) res.sendStatus(400);
 
-      // res.json({ total: response.length, payload: response });
-      ré.json(response);
+      res.json({ total: response.length, payload: response });
+      // res.json(response);
     } catch {
       (error) => {
         console.log("««««« error »»»»»", error);
