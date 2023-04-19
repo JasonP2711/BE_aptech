@@ -1,0 +1,24 @@
+POST http://localhost:9000/Order HTTP/1.1
+content-type: application/json
+# {
+#     "shippedDate" : "2023-4-10",
+#     "paymentType" : "CASH",
+#     "customerId" : "6423a8294724ac30f838c04c",
+#     "employeeId" : "64252a04574f6f8d4b89f066",
+#     "Email" : "Hank@gmail.com",
+#     "Birthday" : "2001-06-01"  
+# }
+
+
+{
+    "customerId": "6423abac4724ac30f838c055",
+    "employeeId": "64252a04574f6f8d4b89f066",
+    "orderDetails": [
+      {
+         "ProductId": "642438bebad813c3621c65c3",
+         "Price": 100,
+         "Discount": 10,
+         "Quantity": 1
+      }
+   ]
+}

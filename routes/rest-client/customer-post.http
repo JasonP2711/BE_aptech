@@ -1,0 +1,13 @@
+POST http://localhost:9000/Customer HTTP/1.1
+content-type: application/json
+
+
+
+{
+    "FirstName" : "Tom",
+    "LastName" : "Hank",
+    "PhoneNumber" : "0356327252",
+    "Address" : "Gemany",
+    "Email" : "Hank@gmail.com",
+    "Birthday" : "2001-06-01"  
+}

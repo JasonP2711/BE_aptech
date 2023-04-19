@@ -1,0 +1,16 @@
+POST  http://localhost:9000/Employee/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "ThangPC@gmail.com",
+      "password": "1234"
+}
+
+# {
+#     "firstName" : "annie",
+#     "lastName" : "joy",
+#     "phoneNumber" : "03142521252",
+#     "address" :" Australia",
+#     "email" : "annie@gmail.com",
+#     "birthDay": "2003-03-25"
+# }

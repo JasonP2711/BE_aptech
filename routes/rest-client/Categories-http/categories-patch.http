@@ -1,0 +1,7 @@
+PATCH http://localhost:9000/Categories/641d7faa0b650f555c0c2866 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Nokia",
+    "description":"this is a new phone"
+}

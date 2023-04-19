@@ -1,0 +1,11 @@
+PATCH  http://localhost:9000/Customer/6423abac4724ac30f838c055 HTTP/1.1
+content-type: application/json
+
+
+{
+    "FirstName": "Herry",
+    "LastName": "Do",
+    "Email": "jason@gmail.com",
+    "Address": "USA",
+     "Birthday": "2001-11-27"
+}

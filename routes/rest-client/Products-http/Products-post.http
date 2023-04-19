@@ -1,0 +1,13 @@
+POST http://localhost:9000/Products HTTP/1.1
+content-type: application/json
+
+
+{
+    "name": "GalaxyBud",
+   "price": 180,
+   "discount": 10,
+   "stock": 100,
+   "description": "Tai nghe Samsung",
+   "categoryId": "641ec68118f26ad231235616",
+   "supplierId": "64243bc7bad813c3621c65c9"
+}

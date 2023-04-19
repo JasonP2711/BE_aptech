@@ -1,0 +1,4 @@
+# Ở đây khai báo những file mà mình ko muốn đẩy lên github hay gi
+.env
+#tác dụng là bảo mật Scret key
+./node_modules

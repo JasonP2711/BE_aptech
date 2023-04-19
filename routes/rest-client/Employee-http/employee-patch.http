@@ -1,0 +1,16 @@
+
+
+PATCH  http://localhost:9000/Employee/64252a2c574f6f8d4b89f068 HTTP/1.1
+content-type: application/json
+
+# {
+#     "firstName" : "julia",
+#     "lastName" : "Lee",
+#     "phoneNumber" : "03140611252",
+#     "address" :" Poland",
+#     "email" : "julia@gmail.com",
+#     "birthDay": "2001-05-20"
+# }
+{
+    "birthDay": "1998-03-02"
+}

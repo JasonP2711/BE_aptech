@@ -1,0 +1,2 @@
+DELETE http://localhost:9000/Products/64231463b42602336ae1fb93 HTTP/1.1
+content-type: application/json

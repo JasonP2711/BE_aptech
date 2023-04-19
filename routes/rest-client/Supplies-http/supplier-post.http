@@ -1,0 +1,9 @@
+POST http://localhost:9000/Supplier HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Acer",
+    "email": "Acer@Acer.com",
+    "phoneNumber": "0355235297",
+    "address": "HaiPhong - VietNam"
+}

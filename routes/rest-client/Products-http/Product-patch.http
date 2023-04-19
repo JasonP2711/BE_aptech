@@ -1,0 +1,12 @@
+PATCH  http://localhost:9000/Products/64231d9814ee15015561e3c2 HTTP/1.1
+content-type: application/json
+
+{
+   "name": "tv Samsung oled ",
+   "price": 100,
+   "discount": 10,
+   "stock": 100,
+    "description": "television",
+   "categoryId": "641847625916114fb90e61ca",
+   "supplierId": "6418540f029c6a147f5c7b18"
+}
